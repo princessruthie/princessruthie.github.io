@@ -1,0 +1,8 @@
+.custom-header h1,
+.custom-header h3{
+  text-align: right;
+}
+#screenshots h3,
+#screenshots p{
+  text-align: center;
+}
