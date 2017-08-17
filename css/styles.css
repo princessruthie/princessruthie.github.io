@@ -1,7 +1,30 @@
-.custom-header h1,
-.custom-header h3{
-  text-align: right;
+h1, h3, h2 {
+  text-align: center;
 }
+
+img {
+  max-width: 75%;
+}
+
+@media (max-width: 768px){
+  img {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 768px){
+  h1,
+  h3{
+    text-align: right;
+  }
+  h2{
+    text-align: left;
+  }
+}
+
 #screenshots h3,
 #screenshots p{
   text-align: center;
