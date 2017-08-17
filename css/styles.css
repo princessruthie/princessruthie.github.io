@@ -6,7 +6,7 @@ img {
   max-width: 75%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   img {
     display: block;
     margin: auto;
@@ -14,18 +14,15 @@ img {
   }
 }
 
-
-@media (min-width: 768px){
-  h1,
-  h3{
+@media (min-width: 768px) {
+  h1, h3 {
     text-align: right;
   }
-  h2{
+  h2 {
     text-align: left;
   }
 }
 
-#screenshots h3,
-#screenshots p{
+#screenshots h3, #screenshots p {
   text-align: center;
 }
