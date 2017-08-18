@@ -1,0 +1,54 @@
+diff --git a/index.html b/index.html
+index 6e21ce7..6b820b8 100644
+--- a/index.html
++++ b/index.html
+@@ -19,11 +19,11 @@
+ </head>
+ 
+ <body>
+-
+-  <body class>
+     <div class="container">
+       <header class="row">
+-        <div class="col-sm-6 img-responsive"><img src="img/avatar.png"></div>
++        <div class="col-sm-6 ">
++          <img class="img-responsive" src="img/avatar.png">
++        </div>
+         <div class="col-md-6">
+           <h1>Princess Ruthie</h1>
+         </div>
+@@ -32,7 +32,9 @@
+         </div>
+       </header>
+       <div class="row">
+-        <h2 class="col-xs-12">Featured Work</h2>
++        <div class="col-xs-12">
++          <h2>Featured Work</h2>
++        </div>
+       </div>
+       <div class="row" id="screenshots">
+         <div class="col-md-4 col-sm-6">
+@@ -40,11 +42,13 @@
+           <h3>Popular Movies</h3>
+           <p><a href="https://github.com/princessruthie/Popular-Movies-Stage-2">Link to project</a></p>
+         </div>
+-        <div class="col-md-4 col-sm-6"> <img class="img-responsive" src="img/inventory-tracker.png">
+-          <h3>Appify</h3>
+-          <p><a href="http://github.com/">Link to project</a></p>
++        <div class="col-md-4 col-sm-6">
++            <img class="img-responsive" src="img/inventory-tracker.png">
++            <h3>Appify</h3>
++            <p><a href="http://github.com/">Link to project</a></p>
+         </div>
+-        <div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0"> <img class="img-responsive" src="img/guardian-api.png">
++        <div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
++          <img class="img-responsive" src="img/guardian-api.png">
+           <h3>Appify</h3>
+           <p><a href="http://github.com/">Link to project</a></p>
+         </div>
+@@ -52,5 +56,4 @@
+     </div>
+     </div>
+   </body>
+-
+ </html>
