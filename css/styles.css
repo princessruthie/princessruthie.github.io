@@ -31,3 +31,8 @@ img {
 #screenshots h3, #screenshots p {
   text-align: center;
 }
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
