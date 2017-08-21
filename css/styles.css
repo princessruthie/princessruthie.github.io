@@ -1,5 +1,10 @@
-h1, h3, h2 {
+h1, h2, h3, a {
+  font-family: 'Encode Sans', sans-serif;
   text-align: center;
+}
+
+h1, h2 {
+  font-weight: 700;
 }
 
 img {
