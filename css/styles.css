@@ -9,6 +9,7 @@ h1, h2 {
 
 img {
   max-width: 75%;
+  border-radius: 50px;
 }
 
 @media (max-width: 768px) {
@@ -37,12 +38,21 @@ img {
   margin-bottom: 20px;
 }
 
+
 /* brandico */
+
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
   font-size: 20px;
 }
 
 footer row {
-  text-align:center;
+  text-align: center;
+  padding: 15px;
+}
+
+.container {
+  padding: 30px;
+  background-image: radial-gradient(circle, #f4add9 0%, rgba(0, 0, 255, 0) 100%, #8989d4 95%);
+  border-radius: 25px;
 }
