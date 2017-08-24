@@ -46,12 +46,12 @@ img {
   font-size: 20px;
 }
 
-footer row {
+footer .row {
   text-align: center;
   padding: 15px;
 }
 
-.container {
+body {
   padding: 30px;
   background-image: radial-gradient(circle, #f4add9 0%, rgba(0, 0, 255, 0) 100%, #8989d4 95%);
   border-radius: 25px;
