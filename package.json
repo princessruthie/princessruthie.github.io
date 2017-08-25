@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Project to Demonstrate Some Front End Skills",
+  "author": "Princess Ruthie",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bootlint": "^0.10.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-w3c-html-validation": "^0.1.9"
+  }
+}
