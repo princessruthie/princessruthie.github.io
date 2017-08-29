@@ -10,4 +10,5 @@
 - add modals for portfolio items
 - ~~add alt to all images~~
 - use js to generate
-- remove redundant link-to-project and incorporate anchor into project name
+- ~~remove redundant link-to-project and incorporate anchor into project name~~
+- change to font awesome for https
