@@ -38,14 +38,6 @@ img {
   margin-bottom: 20px;
 }
 
-
-/* brandico */
-
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-  font-size: 20px;
-}
-
 footer .row {
   text-align: center;
   padding: 15px;
